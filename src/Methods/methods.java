@@ -1,2 +1,9 @@
-package Methods;public class methods {
+package Methods;
+
+public class methods {
+    public static void main(String[] args) {
+
+
+        
+    }
 }
