@@ -21,7 +21,7 @@ public class number_bridge {
             int a=1;
 
             for(int j=1 ; j<=n+1-i;j++) {//number
-                System.out.print(a+++" ");
+                System.out.print(a++ +" ");
             }
             //for the spaces
 
@@ -29,7 +29,7 @@ public class number_bridge {
                 System.out.print(" "+" ");
                 a++;
             }
-            //for the simple number teriangle
+            //for the simple number triangle
             for(int k=1;k<=n+1-i;k++){
                 System.out.print(a+" ");
                     a++;
