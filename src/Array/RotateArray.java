@@ -1,0 +1,27 @@
+package Array;
+
+import java.util.Scanner;
+
+public class RotateArray {
+    public static void main(String[] args) {
+
+        int[] arr ={1,2,3,4,5,6,7};
+        int n= arr.length;
+        int k =3;
+        int[] brr= new int[n];
+        for (int i = 0; i <n ; i++) {
+
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
+        System.out.println("reverse");
+        for (int j = n-1; j >=0 ; j--) {
+            System.out.print(arr[j]+" ");
+        }
+        System.out.println();
+        System.out.println("rotate");
+        for (int i = 0; i < n-k; i++) {
+            System.out.print(arr[i]+" ");
+        }
+    }
+}

@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 import java.util.Scanner;
 
@@ -11,13 +11,13 @@ public class Linear_Search {
         int[]arr= new int[n];
         System.out.print("Enter the targeted element  ");
         int a= scan.nextInt();
-int b=0;
+          int b=0;
         for (int i = 0; i <n ; i++) {
             System.out.print("Enter the values of the of the index  -> "+b++ +" ");
-arr[i]= scan.nextInt();
-        }
+              arr[i]= scan.nextInt();
+              }
         boolean flag=false;
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) {
             if(arr[i]==a)
                 flag=true;
             break;

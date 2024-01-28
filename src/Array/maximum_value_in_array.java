@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public interface maximum_value_in_array {
     public static void main(String[] args) {
