@@ -5,23 +5,47 @@ import java.util.Scanner;
 public class RotateArray {
     public static void main(String[] args) {
 
-        int[] arr ={1,2,3,4,5,6,7};
+        int[] arr ={1,2,4,4,5,6};
         int n= arr.length;
         int k =3;
-        int[] brr= new int[n];
+        System.out.println("array   ");
         for (int i = 0; i <n ; i++) {
 
             System.out.print(arr[i]+" ");
         }
         System.out.println();
-        System.out.println("reverse");
-        for (int j = n-1; j >=0 ; j--) {
-            System.out.print(arr[j]+" ");
-        }
+        //rotation first step
+        reverse(arr,0,n-k-1);
+        reverse(arr,n-k,n-1);
+        reverse(arr,0,n-1);
         System.out.println();
-        System.out.println("rotate");
-        for (int i = 0; i < n-k; i++) {
-            System.out.print(arr[i]+" ");
+        System.out.println("Rotated array   ");
+        for(int ele:arr){
+            System.out.print(ele+" ");
+        }
+
+
+
+
+
+
+
+
+
+
+    }
+
+    public static void reverse(int[]  arr ,int i,int j) {
+        while(i<j) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
         }
     }
-}
+
+
+        }
+
+
