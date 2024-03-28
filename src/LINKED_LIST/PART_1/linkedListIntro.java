@@ -21,7 +21,7 @@ public class linkedListIntro {
 //        System.out.println(e.val);
         for (int i = 0; i < 5; i++) {
             System.out.println(temp.val);
-            temp=next.temp;
+            temp=temp.next;
         }
 
     }
@@ -29,7 +29,7 @@ public class linkedListIntro {
 }
 class Node{
  int val;
-Node next;
+ Node next;
  Node(int val){
     this.val=val;
 }
