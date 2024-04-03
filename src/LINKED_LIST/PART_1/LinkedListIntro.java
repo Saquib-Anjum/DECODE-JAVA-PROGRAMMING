@@ -1,5 +1,12 @@
 package LINKED_LIST.PART_1;
+class Node{
+    int val;
+    Node next;
 
+    Node(int val){
+        this.val=val;
+    }
+}
 public class LinkedListIntro {
 
         public static void main(String[] args) {
@@ -24,14 +31,6 @@ public class LinkedListIntro {
                 System.out.println(temp.val);
                 temp=temp.next;
             }
-
-        }
-    }
-    class Node{
-        int val;
-        Node next;
-        Node(int val){
-            this.val=val;
         }
     }
 
