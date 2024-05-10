@@ -27,6 +27,7 @@ class SLLInsertAtAnyPosition{
         size++;
     }
     void insertAtEnd(int val){
+
         Node temp=new Node(val);
         if(head==null){
             head=tail=temp;

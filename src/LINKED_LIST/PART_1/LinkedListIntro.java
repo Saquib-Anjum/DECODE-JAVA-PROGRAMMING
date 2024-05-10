@@ -1,4 +1,7 @@
 package LINKED_LIST.PART_1;
+
+import java.sql.SQLOutput;
+
 class Node{
     int val;
     Node next;
@@ -7,6 +10,7 @@ class Node{
         this.val=val;
     }
 }
+
 public class LinkedListIntro {
 
         public static void main(String[] args) {
@@ -29,9 +33,11 @@ public class LinkedListIntro {
 //        System.out.println(e.val);
             for (int i = 0; i < 5; i++) {
                 System.out.println(temp.val);
-                temp=temp.next;
+                temp = temp.next;
+            }
             }
         }
-    }
+
+
 
 

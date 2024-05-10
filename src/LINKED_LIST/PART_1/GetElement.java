@@ -70,6 +70,7 @@ class SLLGetElement{
         while(temp!=null){
             System.out.print(temp.val+"  ");
             temp=temp.next;
+
         }
     }
 }

@@ -7,7 +7,8 @@ class InsertAtBeginning{
         if(head==null) head=tail=temp;
         else{
             temp.next=head;
-            head=temp;
+
+              head=temp;
         }
     }
     void display(){
