@@ -1,6 +1,5 @@
-package Stack.Part_1;
-import java.util.*;
-
+package Stack_.Part_1;
+import java.util.Stack;
 public class InsertAnyIndex {
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();

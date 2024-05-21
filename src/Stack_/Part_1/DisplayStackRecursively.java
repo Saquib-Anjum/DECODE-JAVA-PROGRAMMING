@@ -1,4 +1,4 @@
-package Stack.Part_1;
+package Stack_.Part_1;
 
 import java.util.Stack;
 
@@ -28,9 +28,13 @@ public class DisplayStackRecursively {
         st.push(52);
         System.out.println("original stack is  ");
         System.out.println(st);
+        System.out.println();
         System.out.println(" Display reverse  recursively   ");
         displayReverseRec(st);
+        System.out.println();
         System.out.println(" Display  recursively   ");
         displayRec(st);
+        System.out.println();
+        System.out.println(st);
     }
 }

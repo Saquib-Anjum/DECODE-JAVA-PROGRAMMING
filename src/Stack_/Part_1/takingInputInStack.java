@@ -1,5 +1,6 @@
-package Stack.Part_1;
-import java.util.*;
+package Stack_.Part_1;
+import java.util.Stack;
+import java.util.Scanner;
 
 public class takingInputInStack {
     public static void main(String[] args){
