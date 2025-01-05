@@ -1,6 +1,7 @@
 package Array;
 
 import java.util.Arrays;
+import java.util.*;
 
 public class Copy_of_array {
     public static void main(String[] args) {
@@ -17,6 +18,17 @@ public class Copy_of_array {
 //        int[] brr= Arrays.copyOf(arr,arr.length);
 //        brr[0]=9;
 //        System.out.println(brr[0]);
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+
+        int n= sc.nextInt();
+        int[][] arr = new int[n][n];
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                arr[i][j]= sc.nextInt();
+            }
+        }
 
     }
 }
